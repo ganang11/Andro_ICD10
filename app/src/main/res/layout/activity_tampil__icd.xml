@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tampil__icd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/hasilicd"
+    tools:context="com.example.app.icd_10.Tampil_ICD">
+
+    <!--buat tampilin icd kode-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kodeicd"
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:layout_alignParentLeft="true"
+        />
+
+    <!--buat tampilin sub kategori kode-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub kategori"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kategori"
+        android:layout_marginTop="110dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:layout_alignParentLeft="true"/>
+
+
+    <!--buat tampilin blok id-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block Id"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blockid"
+        android:layout_marginTop="180dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:layout_alignParentLeft="true"/>
+
+    <!--buat tampilin chapter id-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapter Id"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginTop="220dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chapter"
+        android:layout_marginTop="250dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:layout_alignParentLeft="true"/>
+
+
+    <!--buat tampilin nama kode dalam bahasa inggris-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English Name"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/english"
+        android:layout_marginTop="330dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:layout_alignParentLeft="true"/>
+
+    <!--buat tampilin nama kode dalam bahasa indonesia-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indonesian Name"
+        android:layout_marginTop="380dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/indo"
+        android:layout_marginTop="410dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>

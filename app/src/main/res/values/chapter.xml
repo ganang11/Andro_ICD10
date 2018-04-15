@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="chapter">
+        <item>--Select Chapter--</item>
+        <item>CHAPTER I (A00-B99)</item>
+        <item>CHAPTER II (C00-D48)</item>
+        <item>CHAPTER III (D50-D89)</item>
+        <item>CHAPTER IV (E00-E90)</item>
+        <item>CHAPTER V (F00-F99)</item>
+        <item>CHAPTER VI (G00-G99)</item>
+        <item>CHAPTER VII (H00-H59)</item>
+        <item>CHAPTER VIII (H60-H95)</item>
+        <item>CHAPTER IX (I00-I99)</item>
+        <item>CHAPTER X (J00-J99)</item>
+        <item>CHAPTER XI (K00-K93)</item>
+        <item>CHAPTER XII (L00-L99)</item>
+        <item>CHAPTER XIII (M00-M99)</item>
+        <item>CHAPTER XIV (N00-N99)</item>
+        <item>CHAPTER XV(O00-O99)</item>
+        <item>CHAPTER XVI (P00-P96)</item>
+        <item>CHAPTER XVII (Q00-Q99)</item>
+        <item>CHAPTER XVIII (R00-R99)</item>
+        <item>CHAPTER XIX (S00-T98)</item>
+        <item>CHAPTER XIX (V01-Y98)</item>
+        <item>CHAPTER XXI (Z00-Z99)</item>
+        <item>CHAPTER XXII (U00-U99)</item>
+    </string-array>
+
+
+    <string name="chap0">
+
+    </string>
+
+    <string name="chap1">
+        Certain infectious and parasitic diseases\n\n\n Penyakit infeksi dan parasit tertentu
+    </string>
+
+    <string name="chap2">
+        Neoplasma
+    </string>
+
+    <string name="chap3">
+        Diseases of the blood and blood-forming organs and certain disorders involving the immunemechanism\n\n\n
+        Penyakit darah dan organ pembentuk darah dan gangguan tertentu yang melibatkan mekanisme kekebalan
+    </string>
+
+    <string name="chap4">
+        Endocrine, nutritional and metabolic diseases\n\n\n
+        Endokrin, penyakit nutrisi dan metabolik
+    </string>
+
+    <string name="chap5">
+        Mental and behavioural disorders\n\n\n
+        Gangguan mental dan perilaku
+    </string>
+
+    <string name="chap6">
+        Diseases of the nervous system\n\n\n
+        Penyakit pada sistem saraf
+    </string>
+
+    <string name="chap7">
+        Diseases of the eye and adnexa\n\n\n
+        Penyakit mata dan adneksa
+    </string>
+
+    <string name="chap8">
+        Diseases of the ear and mastoid process\n\n\n
+        Penyakit telinga
+    </string>
+
+    <string name="chap9">
+        Diseases of the circulatory system\n\n\n
+        Penyakit pada sistem peredaran darah
+    </string>
+
+    <string name="chap10">
+        Diseases of the respiratory system\n\n\n
+        Penyakit pada sistem pernapasan
+    </string>
+
+    <string name="chap11">
+        Diseases of the digestive system\n\n\n
+        Penyakit pada sistem pencernaan
+    </string>
+
+    <string name="chap12">
+        Diseases of the skin and subcutaneous tissue\n\n\n
+        Penyakit kulit dan jaringan subkutan
+    </string>
+
+    <string name="chap13">
+        Diseases of the musculoskeletal system and connective tissue\n\n\n
+        Penyakit pada sistem muskuloskeletal dan jaringan ikat
+    </string>
+
+    <string name="chap14">
+        Diseases of the genitourinary system\n\n\n
+        Penyakit pada sistem genitourinary
+    </string>
+
+    <string name="chap15">
+        Pregnancy, childbirth and the puerperium\n\n\n
+        Kehamilan, persalinan dan masa nifas
+    </string>
+
+    <string name="chap16">
+        Certain conditions originating in the perinatal period\n\n\n
+        Kondisi tertentu yang berasal dari periode perinatal
+    </string>
+
+    <string name="chap17">
+        Congenital malformations, deformations and chromosomal abnormalities\n\n\n
+        Malformasikongenital, deformasi dan kelainan kromosom
+    </string>
+
+    <string name="chap18">
+        Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified\n\n\n
+        Gejala, tanda dan temuan klinis dan laboratorium abnormal, tidak diklasifikasikan di tempat lain
+    </string>
+
+    <string name="chap19">
+        Injury, poisoning and certain other consequences of external causes\n\n\n
+        Cedera, keracunandan konsekuensi tertentu lainnya dari penyebab eksternal
+    </string>
+
+    <string name="chap20">
+        External causes of morbidity and mortality\n\n\n
+        Penyebab eksternal morbiditas dan mortalitas
+    </string>
+
+    <string name="chap21">
+        Factors influencing health status and contact with health services\n\n\n
+        Faktor-faktor yang mempengaruhi status kesehatan dan kontak dengan pelayanan kesehatan
+    </string>
+
+    <string name="chap22">
+        Morphology of Neoplasms (Morfologi Neoplasma)\n\n\n
+        (Kode sementara untuk Penelitian dan Tugas Sementara)
+    </string>
+
+</resources>

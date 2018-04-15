@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cari_icd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcariicd"
+    tools:context="com.example.app.icd_10.Cari_icd">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Kode"
+        android:layout_marginTop="150sp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180sp"
+        android:background="#fff"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/kode"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sub Kategori"
+        android:layout_marginTop="250sp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290sp"
+        android:background="#fff"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/sub_kategori"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340sp"
+        android:text="SEARCH"
+        android:background="#fff"
+        android:textSize="20sp"
+        android:id="@+id/tcari"/>
+
+</RelativeLayout>

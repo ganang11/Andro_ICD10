@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ICD_10</string>
+
+    <!--untuk menu About-->
+      <string name="icd_about">
+    International Statistical Classification of Diseases and Related Health Problems revisi ke 10 atau disingkat dengan
+        ICD-10 dikenal di Indonesia dengan nama Klasifikasi Internasional Penyakit revisi ke 10 disingkat sebagai
+        KIP/10 adalah pengkodean atas penyakit dan tanda-tanda, gejala, temuan-temuan yang abnormal, keluhan,
+        keadaan sosial dan eksternal menyebabkan cedera atau penyakit, seperti yang diklasifikasikan oleh World Health
+        Organization (WHO).\n\n
+        Dalam pengkodean ini menetapkan lebih dari 155.000 memungkinkan berbagai kode dan memungkinkan
+        yang banyak berasal dari pelacakan diagnosis dan prosedur baru dengan perluasan yang signifikan pada kode-kode yang
+        telah tersedia 17.000 pengkodean pada ICD-9 dan ICD-10 mulai bekerja dari tahun 1983 dan dapat diselesaikan pada tahun 1992.
+    </string>
+
+    <!--Untuk menu help -->
+
+    <string-array name="helpmenu">
+        <item>--Pilih Menu--</item>
+        <item>Menu ICD</item>
+        <item>Menu Pencarian Kode ICD</item>
+    </string-array>
+
+    <string name="help">
+
+        Cara menggunakan aplikasi ICD-10 ini dapat di ikuti tata cara sebagai berikut:
+    </string>
+
+    <string name="ThelpICD">
+        Menu ICD menampilkan deskripsi ICD, dan menampilkan Kode per Chapter\n\n
+
+        - klik tombol ICD untuk melihat deskripsi ICD 10\n\n
+
+        - klik Spinner maka akan keluar pilihan chapter, pilih lah salah satu, maka akan keluar hasilnya di bawah.
+    </string>
+
+    <string name="ThelpcariICD">
+        Menu pencarian kode ICD 10
+
+        Lakukan pencarian dengan menuliskan kode di kolom kode\n\n
+        jika ada sub kategori, tuliskan di kolom sub kategori.\n\n
+    </string>
+</resources>
