@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_cari_icd"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/bgcariicd"
     tools:context="com.example.app.icd_10.Cari_icd">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Kode"
-        android:layout_marginTop="150sp"
-        android:layout_alignParentLeft="true"
+        android:text="Index Kode"
+        android:layout_marginTop="130sp"
+        android:layout_marginStart="20dp"
         android:textColor="#fff"
         android:textSize="25sp"
         />
@@ -20,39 +21,142 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180sp"
+        android:layout_marginStart="15sp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
         android:background="#fff"
         android:textSize="20sp"
-        android:layout_alignParentLeft="true"
+        android:padding="5dp"
         android:id="@+id/kode"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=" Sub Kategori"
-        android:layout_marginTop="250sp"
-        android:layout_alignParentLeft="true"
-        android:textColor="#fff"
-        android:textSize="25sp"
-        />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="290sp"
-        android:background="#fff"
-        android:textSize="20sp"
-        android:layout_alignParentLeft="true"
-        android:id="@+id/sub_kategori"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340sp"
+        android:layout_marginTop="20sp"
         android:text="SEARCH"
         android:background="#fff"
         android:textSize="20sp"
         android:id="@+id/tcari"/>
 
-</RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:scrollbarStyle="insideInset"
+        android:alpha="0.8"
+        android:background="@drawable/background_editview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="Kode ICD 10"
+            android:textColor="#000"
+            android:id="@+id/tv_KodeIcd"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Sub Kategori"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Block ID"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Chapter ID"/>
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:id="@+id/tv_SubKategori"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:id="@+id/tv_BlockId"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:id="@+id/tv_ChapterID"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English Name"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English Name"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:id="@+id/tv_EnglishName"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indonesia Name"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indonesia Name"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:id="@+id/tv_IndonesiaName"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

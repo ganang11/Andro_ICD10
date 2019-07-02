@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 public class Tampil_ICD extends AppCompatActivity {
 //    EditText kategori,blockid,chapter,english,indo;
-    TextView code,kategori,blockid,chapter,english,indo;;
+    TextView code,kategori,blockid,chapter,english,indo;
 
     public String kodeTampil;
     public String catagori;
